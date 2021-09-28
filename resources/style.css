@@ -67,8 +67,15 @@ button {
     border: none;
 }
 
-.number-pages {
-    display: inline-block;
-    text-align: center;
+.buttons ul {
+    display: flex;
+    align-content: space-between;
+    padding-left: 20px;
+    align-items: center;
+    justify-content: center;
+}
+
+.buttons li {
+    padding-left: 20px;
     list-style: none;
 }
